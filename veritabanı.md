@@ -30,16 +30,6 @@ Database Design: Create an Assessments table linked to Courses and a Grades tabl
 Business Rule: Each course should have a discussion forum for students to interact.
 Database Design: Establish a DiscussionForums table associated with Courses, and a Posts table for user-generated content.
 
-## Progress Tracking:
-
-Business Rule: Track and display students' progress within each course.
-Database Design: Add a ProgressTracking table linked to Students and Courses, recording completion status and scores.
-
-## User Authentication and Security:
-
-Business Rule: Ensure secure authentication for users and protect sensitive information.
-Database Design: Implement a secure login system, encrypt passwords, and manage user sessions.
-
 ## Notification System:
 
 Business Rule: Notify users about important updates, new content, or upcoming assessments.
@@ -55,21 +45,6 @@ Database Design: Introduce a Payments table for tracking financial transactions 
 Business Rule: Allow users to provide feedback and ratings for courses and instructors.
 Database Design: Incorporate a Feedback table associated with Courses and Instructors.
 
-## Multi-language Support:
-
-Business Rule: Support multiple languages for course content and user interfaces.
-Database Design: Implement a Languages table and ensure language support in relevant tables (e.g., LearningMaterials).
-
-## Accessibility Features:
-
-Business Rule: Ensure the platform is accessible to users with disabilities.
-Database Design: Implement features like alt text for images and maintain accessibility-related preferences in a table.
-
-## Mobile Compatibility:
-
-Business Rule: Design the platform to be mobile-friendly for users on various devices.
-Database Design: Ensure responsive design and consider device-related preferences in a table.
-
 ## Audit Trail:
 
 Business Rule: Keep a record of important system events for auditing and troubleshooting purposes.
@@ -78,12 +53,17 @@ By carefully considering these business rules and incorporating them into the da
 
 # İŞ KURALLARI:
 
-- Online Eğitim Platformunun 0 veya çok sayıda kullanıcısı olabilir. 
+- Online Eğitim Platformunun çok sayıda kullanıcısı vardır. 
 - Platformun eğitmenleri olabilir.
 - Eğitmenler de bir kullanıcıdır.
 - Eğitmenler kendi kurslarını paylaşabilir, silebilir, düzenleyebilir. 
+- Eğitmenler premium kurslar paylaşabilir.
+- Kullanıcılar öğrenci olup kurslarda yer alabilir.
 - Kurslar kendi tartışma forumlarına sahiptir.
 - Kursun tartışma forumlarında öğrenciler mesaj gönderebilir.
 - Kurslar çeşitli öğrenme materyallerine sahip olabilir (Videolar, Testler, Dokümanlar).
-- Kullanıcılar öğrenci olup kurslarda yer alabilir.
 - Eğitmenler öğrencilere çeşitli görevler verebilirler (Quiz, Sınav, Ödev).
+- Eğitmenler öğrencileri puanlarlar.
+- Eğitmenler duyuru yayınlayabilirler.
+- Kullanıcılar eğitmenlere bir ücret karşılığında üye olup eğitmenlerin yayınladığı premium kurslara katılabilir.
+- Öğrenciler katılıp bitirdikleri kursları puanlayabilirler.
