@@ -11,7 +11,6 @@
 - Kursun tartışma forumlarında öğrenciler mesaj gönderebilir.
 - Kurslar çeşitli öğrenme materyallerine sahip olabilir (Videolar, Testler, Dokümanlar).
 - Eğitmenler öğrencilere çeşitli görevler verebilirler (Quiz, Sınav, Ödev).
-- Eğitmenler öğrencileri puanlarlar.
 - Eğitmenler duyuru yayınlayabilirler.
 - Öğrenciler katılıp bitirdikleri kursları puanlayabilirler.
 - Kursları bitiren öğrenciler kursun sertifikasını almaya hak kazanır.

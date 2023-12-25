@@ -1,0 +1,10 @@
+insert into "public"."request" (request_id, instructor_id, student_id, timestamp, message) values (1, 2, 33, '1993-11-23 14:00:45', 'Suspendisse potenti.');
+insert into "public"."request" (request_id, instructor_id, student_id, timestamp, message) values (2, 4, 34, '1997-11-24 16:09:40', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.');
+insert into "public"."request" (request_id, instructor_id, student_id, timestamp, message) values (3, 5, 20, '1997-12-21 15:09:40', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.');
+insert into "public"."request" (request_id, instructor_id, student_id, timestamp, message) values (4, 6, 21, '1995-19-24 18:05:46', 'Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.');
+insert into "public"."request" (request_id, instructor_id, student_id, timestamp, message) values (5, 8, 22, '1999-11-25 19:03:46', 'Nam nulla.');
+insert into "public"."request" (request_id, instructor_id, student_id, timestamp, message) values (6, 40, 23, '1996-16-21 18:03:47', 'Morbi quis tortor id nulla ultrices aliquet.');
+insert into "public"."request" (request_id, instructor_id, student_id, timestamp, message) values (7, 41, 25, '1994-11-26 19:03:48', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.');
+insert into "public"."request" (request_id, instructor_id, student_id, timestamp, message) values (8, 46, 27, '1996-18-27 12:04:42', 'Suspendisse potenti.');
+insert into "public"."request" (request_id, instructor_id, student_id, timestamp, message) values (9, 90, 28, '1998-18-20 12:01:43', 'Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.');
+insert into "public"."request" (request_id, instructor_id, student_id, timestamp, message) values (10, 47, 30, '1997-16-25 16:08:48', 'Praesent blandit.');

@@ -1,0 +1,9 @@
+insert into "course_material"."test" (material_id, number_of_questions) values (1, 7);
+insert into "course_material"."test" (material_id, number_of_questions) values (25, 12);
+insert into "course_material"."test" (material_id, number_of_questions) values (15, 14);
+insert into "course_material"."test" (material_id, number_of_questions) values (18, 4);
+insert into "course_material"."test" (material_id, number_of_questions) values (5, 3);
+insert into "course_material"."test" (material_id, number_of_questions) values (6, 1);
+insert into "course_material"."test" (material_id, number_of_questions) values (7, 10);
+insert into "course_material"."test" (material_id, number_of_questions) values (20, 5);
+insert into "course_material"."test" (material_id, number_of_questions) values (26, 20);
